@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamisetasLodeEnzo - Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header>
+            <div class="nav">
+                <img src="img/logo-pag-original.ico" alt="LOGO" class="nav__logo">
+                <nav class="navbar">
+                    <ul class="navbar__ul">
+                        <li class="navbar__li"><a class="navbar__link" href="./index.html">Home</a></li>
+                        <li class="navbar__li"><a class="navbar__link" href="./index.html">Nosotros</a></li>
+                        <li class="navbar__li"><a class="navbar__link" href="./index.html">Buscar</a></li>
+                    </ul>
+                </nav>
+            </div>    
+            <img class="icono__carrito" src="img/icon-cart.svg" alt=""><span class="contador__carrito">0</span>  
+    </header>
+    <main>
+        <section class="main">
+            <template>
+                <div class="card">
+                    <div class="card__img">
+                    </div>
+                    <div class="card__descripcion">
+                        <p class="card__descripcion__nombre">nombre</p>
+                        <p class="card__descripcion__precio">precio</p>             
+                    </div>
+                    <input class="card__button__añadir" type="button" value="add to cart" >
+                    <div class="card__info">
+                        <span class="material-symbols-outlined">
+                            help
+                            </span>
+                    </div>
+                </div>
+            </template>    
+        </section>
+        <div class="carrito">
+            <div class="carrito__modal"></div>
+            <button class="botonSeguirComprando">Seguir comprando</button>
+        </div>
+    </main>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+

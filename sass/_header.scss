@@ -1,0 +1,51 @@
+header {
+    border-bottom: solid 1px #b4b4b4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    &__logo{
+        border-radius: 4px;
+        height: 50px;
+    }
+}
+
+.navbar{
+    width: 300px;
+    height: 100%;
+    &__ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    &__link{
+        display: block;
+        height: 36px;
+        margin-top: 15px;
+        color:#b4b4b4;
+        text-decoration: none;
+        &:hover{
+                border-bottom: solid 3px #b4b4b4;      
+            }  
+    }
+}
+
+.icono__carrito{
+    margin-top: 14px;
+    margin-right: 5px;
+    height: 25px;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);     
+    }
+}
+.contador__carrito{
+    color: red;
+    position: absolute;
+    margin-left: 990px;
+}

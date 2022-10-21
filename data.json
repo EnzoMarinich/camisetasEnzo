@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "Titular River Plate 2022",
+        "equipo": "River Plate",
+        "pais": "Argentina",
+        "precio": 17000,
+        "cantidad": 0,
+        "img": "./img/camiseta-river-T-2021.png",
+        "info": "Es el equipo mas grande de America, tiene 69 titulos oficiales (57 nacionales, 12 internacionales) entre ellos la copa Libertadores 2018, la mas importante de la historia del futbol"
+    },
+    {
+        "id": 2,
+        "nombre": "Titular Boca Juniors  2022",
+        "equipo": "Boca Juniors",
+        "pais": "Argentina",
+        "precio": 15000 ,
+        "cantidad": 0,
+        "img": "./img/camiseta-boca-T-2022.png",
+        "info": "Equipito chico argentino que dejo de existir el 9 de Diciembre de 2018"
+    },
+    {
+        "id": 3,
+        "nombre": "Titular Racing Club 2022",
+        "equipo": "Racing Club",
+        "pais": "Argentina",
+        "precio": 16500,
+        "cantidad": 0,
+        "img": "./img/racing-t-2022.png",
+        "info": "Entre los 5 mas grande de argentina, 37 titulos(3 internacionales, 34 nacionales)"
+    },   
+    {
+        "id": 4,
+        "nombre": "Titular Estudiantes 2022",
+        "equipo": "Estudiantes",
+        "pais": "Argentina",
+        "precio": 13000,
+        "cantidad": 0,
+        "img": "./img/estudiantes-t-2022.png",
+        "info": "Entre los 5 mas grande de Argentina, tiene 14 titulos oficiales(8 nacionales, 6 internacionales) enrte ellos 4 Libertadores y 1 Intercontinental"
+    },   
+    {
+        "id": 5,
+        "nombre": "Velez Sarfield 2022",
+        "equipo": "Velez Sarfield",
+        "pais": "Arentina",
+        "precio": 12000,
+        "cantidad": 0,
+        "img": "./img/velez-t-2022.png",
+        "info": "Tiene 16 titulos oficiales (11 nacionales , 5 internacionales) entre ellos 1 Libertadores y 1 Intercontinental"
+    },   
+    {
+        "id": 6,
+        "nombre": "Suplente Rosario Central 2022",
+        "equipo": "Rosario Central",
+        "pais": "Argentina",
+        "precio": 9500,
+        "cantidad": 0,
+        "img": "./img/rosariocentral-s-2022.png",
+        "info": "Es el equipo mas grande de Rosario, tiene 11 titulos oficiales (10 nacionales, 1 internacional)"
+    },
+    {
+        "id": 7,
+        "nombre": "Suplente River Plate 2021",
+        "equipo": "River Plate",
+        "pais": "Argentina",
+        "precio": 12000,
+        "cantidad": 0,
+        "img": "./img/river-s-2021.png",
+        "info": "Es el equipo mas grande de America, tiene 69 titulos oficiales (57 nacionales, 12 internacionales) entre ellos la copa Libertadores 2018, la mas importante de la historia del futbol"
+    },
+    {
+        "id": 8,
+        "nombre": "Alteranativa River Plate 2020",
+        "equipo": "River Plate",
+        "pais": "Argentina",
+        "precio": 8000,
+        "cantidad": 0,
+        "img": "./img/river-a-2020.png",
+        "info": "Es el equipo mas grande de America, tiene 69 titulos oficiales (57 nacionales, 12 internacionales) entre ellos la copa Libertadores 2018, la mas importante de la historia del futbol"
+    },
+    {
+        "id": 9,
+        "nombre": "Suplente Racing Club 2022",
+        "equipo": "Racing Club",
+        "pais": "Argentina",
+        "precio": 15000,
+        "cantidad": 0,
+        "img": "./img/racing-s-2022.png",
+        "info": "Entre los 5 mas grande de argentina, 37 titulos(3 internacionales, 34 nacionales)"
+    },
+    {
+        "id": 10,
+        "nombre": "Titular Newell's 2022",
+        "equipo": "Newell's Old Boys",
+        "pais": "Argentina",
+        "precio": 11000,
+        "cantidad": 0,
+        "img": "./img/newells-t-2022.png",
+        "info": "Segundo equipo mas grande de Rosario, 9 titulos nacionales"
+    },
+    {
+        "id": 11,
+        "nombre": "Suplente Estudiante 2022",
+        "equipo": "Estudiantes",
+        "pais": "Argentina",
+        "precio": 12500,
+        "cantidad": 0,
+        "img": "./img/estudiante-s-2022.png",
+        "info": "Entre los 5 mas grandes de Argentina, tiene 14 titulos oficiales(8 nacionales, 6 internacionales) enrte ellos 4 Libertadores y 1 Intercontinental"
+    },
+    {
+        "id": 12,
+        "nombre": "Titular San Lorenzo 2022",
+        "equipo": "San Lorenzo",
+        "pais": "Argentina",
+        "precio": 14500,
+        "cantidad": 0,
+        "img": "./img/sanlorenzo-t-2022.png",
+        "info": "Tiene 22 titulos oficiales(19 nacionales, 3 internacionales) entre ellos la tan esperada Libertadores 2015"
+    }
+]
