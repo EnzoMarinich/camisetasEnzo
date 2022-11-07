@@ -4,7 +4,7 @@
         "nombre": "Titular River Plate 2022",
         "equipo": "River Plate",
         "pais": "Argentina",
-        "precio": 17000,
+        "precio": 17000 ,
         "cantidad": 0,
         "img": "./img/camiseta-river-T-2021.png",
         "info": "Es el equipo mas grande de America, tiene 69 titulos oficiales (57 nacionales, 12 internacionales) entre ellos la copa Libertadores 2018, la mas importante de la historia del futbol"
@@ -118,5 +118,85 @@
         "cantidad": 0,
         "img": "./img/sanlorenzo-t-2022.png",
         "info": "Tiene 22 titulos oficiales(19 nacionales, 3 internacionales) entre ellos la tan esperada Libertadores 2015"
+    },
+    {
+        "id": 13,
+        "nombre": "Alternativa M.City 2021",
+        "equipo": "Manchester city",
+        "pais": "Inglaterra",
+        "precio": 16300 ,
+        "cantidad": 0,
+        "img": "./img/mancity-a-2021.png",
+        "info": ""
+    },
+    {
+        "id": 14,
+        "nombre": "Suplente M.City 2022",
+        "equipo": "Manchester city",
+        "pais": "Inglaterra",
+        "precio": 15600 ,
+        "cantidad": 0,
+        "img": "./img/mancity-s-2022.png",
+        "info": ""
+    },
+    {
+        "id": 15,
+        "nombre": "Titular Milan 2022",
+        "equipo": "Milan",
+        "pais": "Italia",
+        "precio": 19000 ,
+        "cantidad": 0,
+        "img": "./img/milan-t-2022.png",
+        "info": ""
+    },
+    {
+        "id": 16,
+        "nombre": "Suplente PSG 2021",
+        "equipo": "Paris Saint German",
+        "pais": "Francia",
+        "precio": 19500 ,
+        "cantidad": 0,
+        "img": "./img/psg-s-2021.png",
+        "info": ""
+    },
+    {
+        "id": 17,
+        "nombre": "Titular PSG 2022",
+        "equipo": "Paris Saint German",
+        "pais": "Francia",
+        "precio": 21500 ,
+        "cantidad": 0,
+        "img": "./img/psg-t-2022.png",
+        "info": ""
+    },
+    {
+        "id": 18,
+        "nombre": "Titular Barcelona 2022",
+        "equipo": "Barcelona",
+        "pais": "España",
+        "precio": 22000 ,
+        "cantidad": 0,
+        "img": "./img/barcelona-t-2022.png",
+        "info": ""
+    },
+    {
+        "id": 19,
+        "nombre": "Titular Juventus 2022",
+        "equipo": "Juventus",
+        "pais": "Italia",
+        "precio": 21900 ,
+        "cantidad": 0,
+        "img": "./img/juventus-t-2022.png",
+        "info": ""
+    },
+    {
+        "id": 20,
+        "nombre": "Titular Atletico Madrid 2021",
+        "equipo": "Atletico Madrid",
+        "pais": "España",
+        "precio": 20200 ,
+        "cantidad": 0,
+        "img": "./img/atleticomadrid-t-2021.png",
+        "info": ""
     }
 ]

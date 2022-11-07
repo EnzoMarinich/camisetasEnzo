@@ -42,6 +42,7 @@ function pintarProd (){
     stock.forEach((prod)=> {
         let cardClonada = card.cloneNode(true)
         main.appendChild(cardClonada)
+        cardClonada.classList.add(`card${prod.id}`)
         cardClonada.querySelector(".card__img").style.backgroundImage = `url(${prod.img})`
         cardClonada.children[1].querySelector(".card__descripcion__nombre").innerText = prod.nombre
         cardClonada.children[1].querySelector(".card__descripcion__precio").innerText = `$${prod.precio}`
@@ -88,6 +89,7 @@ const actualizarCart = () =>{
         const div = document.createElement("div")
         div.classList.add("carrito__modal__detalle")
         div.innerHTML = `
+            <img src="${prod.img}" alt="">
             <p>${prod.nombre}</p>
             <p>x${prod.cantidad}</p>
             <p>$${prod.precio}</p>
@@ -191,3 +193,50 @@ const guardarLocalStorage = ()=>{
     localStorage.setItem("carrito", JSON.stringify(carrito))
     localStorage.setItem("total", JSON.stringify(precioTotal))
 }
+
+const portadas = [ "img/portada-puma.png",  "img/portada-adidas.png" ,"img/portada-nike.png", "img/portada-puma2.png"  ]
+
+const publicidad = document.querySelector(".publicidad")
+const nextPublicidad = document.querySelector(".publicidad__next")
+const backPublicidad = document.querySelector(".publicidad__back")
+let contador = 0
+
+
+nextPublicidad.addEventListener("click", ()=>{
+    contador++
+    if(contador == 4){
+        contador = 0
+    }
+    publicidad.style.backgroundImage = `url(${portadas[contador]})`
+})
+
+backPublicidad.addEventListener("click", ()=>{
+    contador--
+    if(contador == -1){
+        contador = 3
+    }
+    publicidad.style.backgroundImage = `url(${portadas[contador]})`
+})
+
+
+
+
+
+
+const filtro = document.querySelector(".filtro")
+
+const filtrar = ()=>{
+    let filtrado = filtro.value.toLowerCase()
+
+    stock.forEach((prod)=>{
+        let nombre = prod.equipo.toLowerCase()
+
+        if( nombre.indexOf(filtrado) == -1 ){
+            document.querySelector(`.card${prod.id}`).style.display="none"
+        } else{
+            document.querySelector(`.card${prod.id}`).style.display="block"
+        }
+    })
+}
+
+filtro.addEventListener("keyup", filtrar)

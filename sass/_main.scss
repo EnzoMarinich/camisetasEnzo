@@ -1,3 +1,4 @@
+@use 'mixins';
 
 section{
     margin-top: 50px;
@@ -5,6 +6,41 @@ section{
     flex-wrap: wrap;
     gap: 33px;
     justify-content: space-around;
+}
+
+.publicidad{
+    margin-top: 10px;
+    width: 1000px;
+    height: 450px;
+    background-image: url("img/portada-adidas.png");
+    background-size: cover;
+    border: solid 1px rgb(108, 108, 108);
+    border-radius: 2px;
+    transition: all 1s;
+    &__back{
+        @include mixins.buttonPubli ;
+        left: 240px;
+    }
+    &__next{
+        @include mixins.buttonPubli ;
+        right: 190px;
+    }
+}
+
+.filtro{
+    height: 30px;
+    display: block;
+    margin-left: 456px;
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: solid 3px white;
+    color: white;
+    outline: none;
+    font-family: 'Alkalami';
+    font-size: 18px;
+    width: 170px;
+    background: none
 }
 
 .card{

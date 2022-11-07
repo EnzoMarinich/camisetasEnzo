@@ -111,22 +111,6 @@ section {
   transform: scale(2.1);
 }
 
-.filtro {
-  height: 30px;
-  display: block;
-  margin-left: 456px;
-  margin-top: 40px;
-  text-align: center;
-  border: none;
-  border-bottom: solid 3px white;
-  color: white;
-  outline: none;
-  font-family: "Alkalami";
-  font-size: 18px;
-  width: 170px;
-  background: none;
-}
-
 .card {
   padding: 6px;
   border-radius: 5%;
@@ -194,8 +178,7 @@ section {
   position: relative;
   background-color: aliceblue;
   border: solid 1px black;
-  width: 450px;
-  border-radius: 5px;
+  width: 400px;
 }
 .carrito__modal__detalle {
   display: flex;
@@ -203,10 +186,6 @@ section {
   align-items: center;
   margin: 5px 5px 0px 5px;
   border-bottom: black 1px solid;
-}
-.carrito__modal__detalle img {
-  width: 40px;
-  height: 40px;
 }
 
 .botonEliminar {
@@ -283,4 +262,4 @@ section {
   text-align: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css--watch.map */
