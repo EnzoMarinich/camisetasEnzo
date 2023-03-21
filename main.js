@@ -79,8 +79,8 @@ const addToCart = (prodId)=>{
         carrito.push(eleccion)
         precioTotal += eleccion.precio
     }
-
 }
+
 
 //funcion para mostrar los productos en el carrito
 const actualizarCart = () =>{
